@@ -1,0 +1,196 @@
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 1 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+I. Eligible Patients
+a. Inclusion Criteria:
+i. The adult (≥18 yrs) pre-hospital or in-hospital post-cardiac arrest patient who
+remains comatose following CPR and experience return of spontaneous circulation
+(ROSC) within 60 minutes of collapse.
+ii. Persistent coma following ROSC, defined as: unarousable unconsciousness, with no
+voluntary response to verbal or tactile stimuli and no comprehensible speech.
+iii. Prior to initiation of cooling, patient must be intubated, mechanically ventilated, and
+sedated.
+iv. Patient should be able to maintain blood pressure with or without vasopressors.
+v. Thrombolysis, anti-platelet agents, or anticoagulants, as deemed necessary to treat a
+primary cardiac condition, are not a contraindication to cooling.
+b. Exclusion Criteria:
+i. Persistent life-threatening arrhythmias
+ii. Pulseless for > 60 minutes
+iii. >12 hours since return of spontaneous circulation
+iv. Severe active, life-threatening hemorrhage
+v. Coma due to causes other than cardiac arrest i.e. drug overdose, stroke, pre-existing
+coma, status epilepticus
+II. Targeting 33 degrees Celsius or 36 degrees Celsius
+a. Cooling should be initiated as soon as possible after ROSC, preferably within 4 hours. It can
+be initiated in the Emergency Department, Cardiac Cath Lab or ICU.
+b. Obtain Neurocritical care consult after ROSC for those undergoing TTM.
+c. Patients should be cooled as quickly as possible to achieve the target goal of 33 or 36
+degrees Celsius within 4 hours of initiation of hypothermia. The choice of the targeted
+temperature will be made by the attending physician by taking into account factors such as:
+the mechanism of cardiac arrest, comorbidities such as severe hypotension with use of
+multiple vasopressors, presence of arrhythmias, and coagulopathies. Once goal temperature
+is attained, it should be maintained for 24 hours (from the time target temperature is
+reached). All patients who are eligible should be considered for TTM. Most patients will
+likely be candidates for 36 degrees Celsius.
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 2 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+d. Factors to consider to target 36 degrees Celsius rather than 33 degrees Celsius
+i. Pregnancy
+ii. Severe shock requiring multiple vasopressors
+iii. Severe bradycardia
+iv. Major surgery within 2 weeks
+v. Severe coagulopathy
+vi. Severe head trauma or intracranial hemorrhage
+vii. Multi-trauma
+III. TTM 33 degrees Celsius
+a. Initiation
+i. Confirm that the ventilator’s heated humidifier is off.
+ii. Confirm that the patient has been sedated.
+iii. Neuromuscular blockade may be used to prevent shivering during induction of
+hypothermia. If neuromuscular blockade is necessary, use the minimum dose
+required to prevent shivering. A continuous infusion is not required if shivering is
+controlled with intermittent bolus administration. Titrate neuromuscular blockade
+by using train of four to maintain 1-2/4 twitches.
+b. External Cooling Methods
+i. For patients not yet in the ICU (i.e. ED / Cath Lab), who have no evidence of
+pulmonary edema, begin cooling by infusing 1-2 liters refrigerator chilled 0.9%
+normal saline over 30 to 60 minutes through a peripheral or femoral venous line,
+(Safety of chilled IV fluids via IJ or subclavian sites is unclear.)
+ii. Apply ice packs to sides of neck and head and bilateral axilla and groin if needed.
+iii. Ensure core temperature monitoring/insertion.
+iv. Transfer patient to ICU or Cardiac Cath Lab as expeditiously as possible.
+v. Once patient is in ICU, continue temperature management using the Arctic Sun
+temperature management system.
+1. Follow manufacturer instructions for applying ArcticGel Pads.
+2. Select target temperature on Arctic therapy screen per practitioner order.
+The standard therapy is set to a target of 33 degrees Celsius. Once target
+temperature is achieved, the machine will maintain target temperature for
+24 hours, then rewarm to 37 degrees over 16 hours.
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 3 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+vi. If the Arctic Sun is not available, Blanketrol cooling blankets may be used. Apply
+blankets both above and below the patient. Place a sheet between the patient’s skin
+and the cooling blanket to prevent cold injury to patient’s skin.
+1. Set cooling blanket temperature on manual mode to achieve desired patient
+temperature. (Recommended initial cooling blanket temperature setting is
+10-15 degrees Celsius).
+vii. Remove ice packs once target temperature is reached.
+c. Patient monitoring at induction, maintenance
+i. Obtain baseline troponin, CPK MB, lactate, electrolytes, glucose, magnesium, ionized
+calcium, ABG, PT/PTT, CBC.
+ii. Continuously monitor the patient’s core body temperature. Document core
+temperature every 15 minutes during the initial cooling phase, and at least hourly
+after the goal core temperature of 33 degrees Celsius is reached.
+iii. Monitor vital signs at least every 30 minutes until transported to the ICU or Cardiac
+Cath Lab, then at least hourly. During initial cooling, peripheral vasoconstriction will
+cause an increase in heart rate and blood pressure. Shivering, if allowed to occur,
+can also contribute to increased heart rate. Once the patient is controlled with a
+sedative analgesic and an optional continuous infusion of neuromuscular blockade,
+the heart rate may progress to bradycardia. Bradycardia in this setting may be
+refractory to atropine.
+iv. Shivering may be first controlled by using counter-warming of the hands and feet.
+Continued shivering may be controlled with continuous infusions of sedatives such as
+propofol, midazolam, and dexmedetomidine. Analgesia with opiates may also be
+used. Although meperidine has been used effectively for the treatment of shivering,
+it may lower the seizure threshold in this population. Alternatively, buspirone
+and/or magnesium sulfate may also be used.
+v. Maintain cerebral perfusion pressures (CPP) of at least 60 mmHg. If intracranial
+pressure monitoring is not able to be obtained, the MAP goal should be adequate for
+an estimation of optimal CPP.
+vi. Monitor and document initial QTc interval with an EKG; monitor QT at least hourly
+until target temperature is reached, then every 2 hours. If QT / QTc > 500 ms, notify
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 4 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+practitioner immediately. QT/ QTc > 500 ms is associated with Torsades de pointes,
+and is a relative contraindication to continued therapeutic hypothermia.
+vii. Monitor blood glucose hourly. Insulin resistance, sometimes severe, may develop
+with hypothermia. If hyperglycemia develops, continue monitor blood glucose every
+hour and use an insulin infusion to maintain blood glucose < 180. DO NOT use
+standard insulin protocol while the patient is hypothermic.
+viii. During the 24 hour period of active cooling, there is no indication for sedation
+holidays. Train of four should be used to monitor the level of neuromuscular
+blockade if necessary. Neurological checks should include assessment of pupillary
+reflex and observing spontaneous neurological activity such as signs of cognition,
+motor movements, and other brainstem functions.
+ix. Observe for intravascular volume depletion due to hypothermia-induced diuresis
+which may be accompanied by hypokalemia. This shift reverses when the patient is
+re-warmed and may result in hyperkalemia. If K+ is > 3.5, discontinue potassium
+administration eight hours before re-warming.
+x. Continue standard supportive care for mechanically ventilated, chemically paralyzed
+patients, including DVT prophylaxis, head of bed elevated >30 degrees and attentive
+skin care.
+xi. If time permits before transfer to ICU or Cardiac Cath Lab, insert Salem sump tube
+via orogastric route and check for ileus; consider intermittent low suction if present.
+Limit medications via OG tube during cooling.
+xii. Monitor for potential complications, including hyperglycemia, hypoglycemia,
+coagulopathy, pneumonia, sepsis, and rhabdomyolysis.
+xiii. Patients should be on continuous EEG monitoring until pharmacologic paralysis is
+discontinued. Continuous EEG should be used to assess for brain activity and
+seizures.
+d. Re-warming
+i. At 24 hours after achieving target temperature, the patient should be re-warmed to
+a goal of 37 degrees Celsius.
+ii. If the Arctic Sun is in use: once the cooling period is over, an alert will sound &
+display “Cool Patient End” – hit “Start” to initiate rewarming. Post- rewarming, the
+“Normothermia” setting may be used up to 48 hours.
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 5 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+iii. If the Blanketrol was used for cooling, remove cooling blankets and allow passive rewarming. May use regular blankets. Optimally, re-warming should occur no faster
+than 1 degree Celsius/hour. If not normothermic at six hours, add Bair Hugger
+Warmer.
+iv. Neuromuscular blockade, if used solely to prevent shivering, should be stopped
+when the cooling is discontinued at 24 hours.
+v. Sedation should be weaned during re-warming. Attempt to have a sedation holiday
+once the patient temperature reaches 36 degrees Celsius.
+vi. Monitor during re-warming for hyperkalemia, hypoglycemia, seizures, hypotension
+due to vasodilatation and fluid volume shifts, and recurrent ventricular fibrillation.
+vii. Contact physician if patient becomes febrile, > 38.0 degrees Celsius, as hyperthermia
+is harmful to the recovering brain.
+IV. TTM 36 degrees Celsius
+a. Patients being maintained at 36 degrees Celsius may use conservative methods such as
+reduction in blankets, decreasing ambient room temperature. More aggressive temperature
+management can include cooling blanket and Arctic Sun set at 36 degrees.
+b. Sedation and medications/methods for shivering may be used as described above as needed.
+c. Maintain targeted temperature of 36 degrees for 24 hours. Temperatures should be
+documented every 1-2 hours. Core temperatures are more accurate than peripheral
+temperatures.
+d. Maintain cerebral perfusion pressures (CPP) of at least 60 mmHg. If intracranial pressure
+monitoring is not able to be obtained, the MAP goal should be adequate for an estimation of
+optimal CPP.
+e. After TTM of 36 degrees for 24 hours, rewarming to 37.0 - 37.5 degrees can be done over 4
+hours if using Arctic Sun. Maintain euthermia (under 37.5 degrees) for at least 48 hours post
+rewarming.
+f. Normal monitoring of blood glucose and electrolytes can be done during TTM of 36 degrees.
+g. Continuous EEG should be used to assess for brain activity and seizures.
+ SECTION:
+SUBJECT:
+CLINICAL CARE GUIDELINES CCG-3 Page 6 of 6
+TARGETED TEMPERATURE MANAGEMENT(TTM)POST RESUSCITATED CARDIAC ARREST
+Approval: Critical Care Advisory Committee
+ CPR Committee
+ Nursing Standards Committee
+Effective Date: 3/2009 (draft), 8/2009 (ICU), 9/2009 (ED)
+Revision Date: 9/2010 (ED version) , 8/2017 (ED/ICU policies combined; retitled “Targeted Temperature
+Management”) , 2/2022 (Revised & retitled as Guideline)
+Gracia Mui, MD (Signed) 03/08/2022
+Gracia Mui, MD Date
+ICU Surgical Co-Director (Neurology)
+Kimberly Metcalf (Signed) 03/08/2022
+Kimberly Metcalf MS – PharmD Date
+AVP Pharmacy and Ancillary Services
+Scott Allen, MD (Signed) 03/08/2022
+Scott Allen, MD Date
+Chief Medical Officer
+Caryl Ryan (Signed) 03/08/2022
+Caryl Ryan, MS, BSN, RN Date
+Chief Operating Officer, JDH
+VP Quality and Patient Services & Chief Nursing Officer

@@ -1,0 +1,3 @@
+#chat-window::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar for Chrome, Safari, and other Webkit-based browsers */
+}

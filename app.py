@@ -7,15 +7,18 @@ from dash.dependencies import Output, Input, State
 # Import layouts from other pages
 from pages.search_page import search_page_layout
 from pages.results_page import results_page_layout
-from pages.document_page import document_page_layout  # Import the document layout
+from pages.document_page import document_page_layout  # - document_page.py is no longer needed
 
 # Dash app setup
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 app.config.suppress_callback_exceptions = True
 server = app.server
-@server.route('/documents/<path:filename>')
+
+############ the below is no longer needed ############
+@server.route('/data/<path:filename>')
 def serve_document(filename):     
-    return flask.send_from_directory('documents', filename)
+    return flask.send_from_directory('data', filename)
+############ the above is no longer needed ############
 
 # Main app layout with dynamic content
 app.layout = html.Div([
@@ -29,7 +32,7 @@ app.layout = html.Div([
 def display_page(pathname):
     if pathname == '/results':
         return results_page_layout
-    elif pathname.startswith('/document/'):
+    elif pathname.startswith('/data/'):
         # Extract the document name from the pathname
         document_name = pathname.split('/')[-1]
         return document_page_layout(document_name)  # Display the document layout with the document name

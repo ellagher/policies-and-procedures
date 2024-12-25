@@ -113,14 +113,23 @@ def build_graph_with_memory(llm, retrieve_tool, memory=persistent_memory):
         tool_messages = recent_tool_messages[::-1]
 
         docs_content = "\n\n".join(doc.content for doc in tool_messages)
+        # system_message_content = (
+        #     "You are Nancy, an assistant for answering questions about policies and procedures. "
+        #     "Retrieve and use information solely from the relevant provided documents to respond to the user's query. "
+        #     "Do not use any external knowledge or make assumptions. "
+        #     "If the user's query explicitly references a document, prioritize retrieving data from that document. "
+        #     "If the query does not specify a document, consider all available documents for context. "
+        #     "If no relevant information is found in the documents, clearly state, 'I do not have information about this in the provided documents.'\n\n"
+        #     f"{docs_content}"
+        # )
+
         system_message_content = (
-            "You are Nancy, an assistant for answering questions about policies and procedures. "
-            "Retrieve and use information solely from the relevant provided documents to respond to the user's query. "
-            "Do not use any external knowledge or make assumptions. "
-            "If the user's query explicitly references a document, prioritize retrieving data from that document. "
-            "If the query does not specify a document, consider all available documents for context. "
-            "If no relevant information is found in the documents, clearly state, 'I do not have information about this in the provided documents.'\n\n"
-            f"{docs_content}"
+        "You are Nancy, an assistant for answering questions about policies and procedures. "
+        "Retrieve and use information solely from the relevant provided documents to respond to the user's query. "
+        "Do not use any external knowledge or make assumptions. "
+        "For every response, explicitly include the source document's title and the page number(s) used to generate the response. "
+        "If no relevant information is found in the documents, clearly state, 'I do not have information about this in the provided documents.'\n\n"
+        f"{docs_content}"
         )
 
         conversation_messages = [

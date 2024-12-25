@@ -346,10 +346,10 @@ def build_pdf_viewer_layout(pdf_url):
                 src=pdf_url,
                 type="application/pdf",
                 width="100%",
-                height="600px"
+                height="100%"
             ),
         ],
-        style={"marginTop": "20px"}
+        style={"height": "90vh", "overflow": "hidden", "marginTop": "20px"}
     )
 
 results_page_layout = dbc.Container(
@@ -361,10 +361,10 @@ results_page_layout = dbc.Container(
                 html.Img(
                     src="/assets/back.png",
                     style={
-                        "width": "30px",
-                        "height": "30px",
+                        "width": "20px",
+                        "height": "20px",
                         "position": "absolute",
-                        "top": "20px",
+                        "top": "10px",
                         "left": "20px",
                         "zIndex": "9999",
                         "cursor": "pointer"
@@ -376,10 +376,10 @@ results_page_layout = dbc.Container(
                 html.Img(
                     src="/assets/home_button.png",
                     style={
-                        "width": "33px",
-                        "height": "31px",
+                        "width": "23px",
+                        "height": "21px",
                         "position": "absolute",
-                        "top": "20px",
+                        "top": "14px",
                         "right": "20px",
                         "zIndex": "9999",
                         "cursor": "pointer"
@@ -393,15 +393,28 @@ results_page_layout = dbc.Container(
         dbc.Row(
             [
                 dbc.Col(
-                    html.Div(id="left-content"),  
+                    html.Div(
+                        id="left-content",
+                        style={
+                            "height": "100vh",  
+                            "overflow": "auto",  
+                        }
+                    ),
                     width=6
                 ),
                 dbc.Col(
                     chatbox_layout(),
-                    width=6
+                    width=6,
+                    style={
+                        "height": "100vh",  
+                        "overflow": "auto"  
+                    }
                 ),
             ],
-            justify="start"
+            justify="start",
+            style={
+                "height": "100vh"  
+            }
         ),
     ],
     fluid=True,
@@ -409,7 +422,8 @@ results_page_layout = dbc.Container(
         "padding": "20px",
         "backgroundColor": "#ffffff",
         "borderRadius": "10px",
-        "position": "relative"
+        "position": "relative",
+        "height": "100vh" 
     }
 )
 

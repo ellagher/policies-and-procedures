@@ -162,7 +162,7 @@ def chatbox_layout():
         ],
         style={
             "position": "fixed",
-            "top": "20px",
+            "top": "36px",
             "right": "0",
             "width": "50%",
             "bottom": "20px",
@@ -187,8 +187,35 @@ def generate_session_id(pathname):
     Input("session-id", "data"),
     prevent_initial_call=True
 )
+# def clear_chatstore_on_new_session(_new_session_id):
+#     return []
+
 def clear_chatstore_on_new_session(_new_session_id):
-    return []
+    return [
+        {
+            "type": "nancy_response",
+            "content": "Hi there! I'm Nancy, your assistant. How can I help you today?"
+        }
+    ]
+
+@callback(
+    Output("chat-window", "children"),
+    Input("chat-store", "data"),
+    prevent_initial_call=False  
+)
+def render_chat_window(chat_data):
+    """
+    Render chat bubbles from the chat-store data.
+    """
+    chat_window_children = []
+    for entry in chat_data:
+        if entry["type"] == "user":
+            chat_window_children.append(create_user_bubble(entry["content"]))
+        elif entry["type"] == "nancy_response":
+            chat_window_children.append(create_nancy_response_bubble(entry["content"]))
+        elif entry["type"] == "nancy_loading":
+            chat_window_children.append(create_nancy_loading_bubble())
+    return chat_window_children
 
 @callback(
     Output("send-button", "disabled"),

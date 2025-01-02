@@ -62,7 +62,15 @@ def load_and_vectorize_data(folder_path: str = "data/", chunk_size=1000, chunk_o
         if filename.endswith(".pdf"):
             pdf_path = os.path.join(folder_path, filename)
             loader = PyPDFLoader(pdf_path)
-            documents.extend(loader.load())
+            pdf_docs = loader.load()
+        
+            # Add the filename to each document's metadata
+            for doc in pdf_docs:
+                doc.metadata["file_name"] = filename
+                doc.page_content = f"Filename: {filename}\n{doc.page_content}"
+            
+            documents.extend(pdf_docs)
+            #documents.extend(loader.load())
 
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     splits = text_splitter.split_documents(documents)
@@ -115,13 +123,17 @@ def build_graph_with_memory(llm, retrieve_tool, memory=persistent_memory):
         docs_content = "\n\n".join(doc.content for doc in tool_messages)
 
         system_message_content = (
-        "You are Nancy, an assistant for answering questions about policies and procedures. "
-        "Retrieve and use information solely from the relevant provided documents to respond to the user's query. "
-        "Do not use any external knowledge or make assumptions. "
-        "For every response, explicitly include the source document's title and the page number(s) used to generate the response. "
-        "If no relevant information is found in the documents, clearly state, 'I do not have information about this in the provided documents.'\n\n"
-        f"{docs_content}"
+            "You are Nancy, an assistant for answering questions about policies and procedures. "
+            "Retrieve and use information solely from the relevant provided documents to respond to the user's query. "
+            "You can summarize a document if requested, or answer specific questions. "
+            "For summarization tasks, provide a detailed summary by extracting and presenting all key points, themes, and significant details from the entire document. "
+            "Ensure the summary captures the essence of each section and includes specific information where relevant. "
+            "Explicitly include the source document's title and the page number(s) used to generate the response. "
+            "If no relevant information is found in the documents, clearly state, 'I do not have information about this in the provided documents.' "
+            "For detailed summaries, organize the content logically and ensure completeness to provide an accurate understanding of the document.\n\n"
+            f"{docs_content}"
         )
+
 
         conversation_messages = [
             message
